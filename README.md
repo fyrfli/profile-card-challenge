@@ -52,7 +52,7 @@ I feel like getting the profile image to move further down the card could have b
 
 ```html
 <div class="profile-pic">
-    <img src="images//image-victor.jpg" alt="Victor's profile picture" />
+    <img src="images/image-victor.jpg" alt="Victor's profile picture" />
 </div>
 ```
 ---
