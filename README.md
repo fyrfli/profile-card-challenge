@@ -72,5 +72,5 @@ I wish I had had the confidence to try this out using box layout. And maybe I wi
 
 - Website - [Camille Frantz](https://github.com/fyrfli)
 - Frontend Mentor - [@yfyrfli](https://www.frontendmentor.io/profile/fyrfli)
-- Twitter - [@fyrfli](https://www.twitter.com/fyrfli) (even though I rarely tweet anymore)
+- Twitter - [@fyrfli](https://www.twitter.com/fyrfli) (even though I rarely tweet)
 
