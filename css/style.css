@@ -1,0 +1,18 @@
+/* generics */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+html {
+    font-size: 120%;
+    /* Pixel size for this challenge is 18px = 1.125rem = 120% */
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    margin: 2rem auto;
+}
+/* end generics */
