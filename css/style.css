@@ -8,7 +8,7 @@
     border: none;
 }
 html {
-    font-size: 120%;
+    font-size: 18px;
     /* Pixel size for this challenge is 18px = 1.125rem = 120% */
     font-family: 'Kumbh Sans', sans-serif;
 }
@@ -18,6 +18,9 @@ body {
         url("../images/bg-pattern-top.svg"),
         url("../images/bg-pattern-bottom.svg");
     background-color: #19A1AD;
+}
+a:any-link {
+    color: rgb(252, 237, 106);
 }
 /* end generics */
 
@@ -30,7 +33,7 @@ body {
     height: 370px;
     background-color: #fff;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 10rem;
     border-radius: 12px;
     box-shadow: 0 0 100px hsl(227, 10%, 46%, 50%);
 }
@@ -53,15 +56,45 @@ body {
 .name-loc {
     margin: 10px auto;
     text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+.name {
+    font-weight: 700;
+    color: #000;
+    margin-right: 10px;
+}
+.location {
+    margin-top: 8px;
+    font-size: .8rem;
+}
+.card hr {
+    margin: 18px auto;
+    border-top: 1px dotted hsl(227, 10%, 46%);
+;
+}
+.stat-line {
+    margin-top: 10px;
+    color: hsl(227, 10%, 46%);
+    display: grid;
+    grid-template-columns: repeat(3, 10px);
+    grid-template-rows: min-content;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    font-size: 14px;
+    text-align: center;
+}
+.numb {
+    font-weight: 700;
+    color: #000;
+}
+.label {
+    font-size: 12px;
 }
 
 /* footer */
 .attribution {
+    margin-top: 2rem;
     text-align: center;
     font-size: .6rem;
-}
-.attribution hr {
-    width: 65%;
-    margin: 1rem auto;
-    border-top: 1px dotted hsl(0, 0%, 59%);
 }
