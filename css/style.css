@@ -13,11 +13,13 @@ html {
     font-family: 'Kumbh Sans', sans-serif;
 }
 body {
-    margin: 2rem auto;
+    /* margin: 2rem auto;
     background-image: 
         url("../images/bg-pattern-top.svg"),
-        url("../images/bg-pattern-bottom.svg");
+        url("../images/bg-pattern-bottom.svg"); */
     background-color: #19A1AD;
+    /* background-repeat: no-repeat;
+    background-position: bottom left 50%, top right 50%; */
 }
 a:any-link {
     color: rgb(252, 237, 106);
@@ -37,12 +39,16 @@ a:any-link {
     border-radius: 12px;
     box-shadow: 0 0 100px hsl(227, 10%, 46%, 50%);
 }
-/* .top {
-    margin: auto;
+body::before {
+    top: 0;
+    left: 8%;
+    background-image: url("../images/bg-pattern-top.svg");
 }
-.card-top {
-    margin: auto;
-}*/
+body::after {
+    top: 100%;
+    left: 80%;
+    background-image: url("../images/bg-pattern-bottom.svg");
+}
 .profile-pic {
     margin: auto;
     padding-top: 80px;
