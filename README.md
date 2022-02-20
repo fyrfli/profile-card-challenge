@@ -55,6 +55,9 @@ I feel like getting the profile image to move further down the card could have b
     <img src="images//image-victor.jpg" alt="Victor's profile picture" />
 </div>
 ```
+---
+
+I also had more trouble with the background images than I expected and looking at some other solutions, I am realising how much I don't know.
 
 ### Continued development
 
