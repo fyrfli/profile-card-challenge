@@ -18,7 +18,7 @@ body {
         url("../images/bg-pattern-top.svg"),
         url("../images/bg-pattern-bottom.svg"); */
     /* background: #19A1AD no-repeat top url("../images/bg-pattern-top.svg"), no-repeat bottom url("../images/bg-pattern-bottom.svg"); */
-    background: url("../images/bg-pattern-top.svg") 0 50% no-repeat, url("../images/bg-pattern-bottom.svg") 100% 0 no-repeat, #19A1AD;
+    background: url("../images/bg-pattern-top.svg") 1vw -50vh no-repeat, url("../images/bg-pattern-bottom.svg") 90vh 50vh no-repeat, #19A1AD;
 
 /* background-repeat: no-repeat;
     background-position: bottom left 50%, top right 50%; */
